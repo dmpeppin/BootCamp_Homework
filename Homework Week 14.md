@@ -144,39 +144,63 @@ X-XSS-Protection: 1; mode=block
 
 21. What is the response status code?
 
+- *200*
+
 22. What web server is handling this HTTP response?
+
+- *Apache*
 
 23. Does this response have a user session associated to it?
 
+- *yes* `SessionID=5`
+
 24. What kind of content is likely to be in the [page content] response body?
+
+- *some sort of html webpage*
 
 25. If your class covered security headers, what security request headers have been included?
 
+- `X-XSS-Protection: 1; mode=block` `X-Frame-Options: DENY` `X-Content-Type: NoSniff` `Strict-Transport-Security: max-age=31536000; includeSubDomains`
+
 #### Monoliths and Microservices
 
-Answer the following questions about monoliths and microservices:
+> Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 
+- *module, service*
+
 27. What is a service that writes to a database and communicates to other services?
+
+- *API might make calls to the database and serve the info to other services*
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
 #### Deploying and Testing a Container Set
 
-Answer the following questions about multi-container deployment:
+> Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
 
+- *docker compose*
+
 30. What kind of file format is required for us to deploy a container set?
+
+- *.yaml*
 
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
+- *SELECT*
+
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
+- *INSERT INTO*
+
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
+
+- *there is no WHERE clause to limit what is deleted so the whole table can be deleted*
 
 ---
 
