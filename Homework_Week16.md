@@ -5,7 +5,11 @@
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
 
+`Karl Fitzgerald` though it was easy enough to find it on their website, i used a google search `site:demo.testfire.net executive`
+
 - How can this information be helpful to an attacker:
+
+`a social engineering method would be to send a fake email pretending to be the CEO and ask for confidential information`
 
 
 #### Step 2: DNS and Domain Discovery
