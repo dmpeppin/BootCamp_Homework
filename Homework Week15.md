@@ -159,8 +159,7 @@ In this activity, you will assume the role of a pen tester hired by a bank to te
 
 #### Challenge #1
 
-![hidden javascript](/BootCamp_Homework/HW15 Ch1.PNG)
-
+![hidden javascript](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch1.PNG)
 
 
 
