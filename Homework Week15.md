@@ -103,21 +103,17 @@ ____
 
 #### Web Application Firewalls
 
-WAFs are designed to defend against different types of HTTP attacks and various query types such as SQLi and XSS.
-
-WAFs are typically present on web sites that use strict transport security mechanisms such as online banking or e-commerce websites.
-
 1. Which layer of the OSI model do WAFs operate at?
 
-Answer:
+Answer: `The application layer, or what we call layer 7`
 
 2. A WAF helps protect web applications by filtering and monitoring what?
 
-Answer:
+Answer: `SQLi and XSS
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
 
-Answer:
+Answer: `True`
 ____
 
 #### Authentication and Access Controls
@@ -130,29 +126,29 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1:
+   - Factor 1: `something known: standard login ie password, PIN`
 
    
-   - Factor 2:
+   - Factor 2: `something owned: phsyical keys ie smart card`
    
    
-   - Factor 3:
+   - Factor 3: `something owned: biometrics ie fingerprint, iris scan`
 
    
-   - Factor 4:
+   - Factor 4: `location: landline access, GPS detection`
 
    
 2. True or False: A password and pin is an example of 2-factor authentication.
 
-Answer:
+Answer: `I would say False, they are both something known and nothing owned`
    
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
 
-Answer:
+Answer: `True, something known (password) and something owned (authenticator app)`
    
 4. What is a constrained user interface? 
 
-Answer:
+Answer: `Limited visibility based on autheticated privileges`
 
 ----
 ____
@@ -161,47 +157,11 @@ ____
 
 In this activity, you will assume the role of a pen tester hired by a bank to test the security of the bank’s authentication scheme, sensitive financial data, and website interface.
 
-
-#### Lab Environment   
-
-We'll use the **Web Vulns** lab environment. To access it: 
-  - Log in to the Azure Classroom Labs dashboard. 
-  - Find the card with the title **Web Vulns** or **Web Vulnerability and Hardening**.
-  - Click the monitor icon in the bottom-right. 
-  - Select **Connect with RDP**.
-  - Use Credentials (azadmin:p4ssw0rd*)
-
-- The lab should already be started, so you should be able to connect immediately. 
-
-- Refer to the [lab setup instructions](https://cyberxsecurity.gitlab.io/documentation/using-classroom-labs/post/2019-01-09-first-access/) for details on setting up the RDP connection.
-
-Once the lab environment is running, open the HyperV manager and make sure that the OWASPBWA and Kali box is running.
-
-- Then, login to the Kali VM and navigate to the IP address of the OWASPBWA machine.
-
-- Click the option for 'WebGoat' and start the WebGoat app.
-
-- Use the credentials: `guest`:`guest`
-
-On the bottom of the left side of the screen, click on `Challenge` and then choose `The Challenge`.
-
-**Note:** A common issue with this lab is the Challange activity failing to start successfully. Hit the `Restart the Lesson` button in the top right if you get an error starting the activity.
-
-### The Challenge Instructions
-
 #### Challenge #1
 
-Your first mission is to break the authentication scheme. There are a number of ways to accomplish this task.
 
-- **Hint #1**: Sometimes, form fields are shy!
 
-- **Hint #2**: Find the hidden JavaScript.
 
-- **Hint #3**: You can appened `source?source=true` to the URL to read the source code. 
-
-Please include a screenshot here of the hidden JavaScript:
-
-After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
 #### Challenge #2
 
