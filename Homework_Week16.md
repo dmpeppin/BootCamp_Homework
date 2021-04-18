@@ -47,7 +47,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability: `I cant seem to find a vulnerability`
 
-![script error](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW16_St4-1.PNG)
+![script error](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW16_St5-1.PNG)
 
   2. Why is it dangerous:
 
