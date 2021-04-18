@@ -27,7 +27,7 @@ Answer: `criminals, state actors, hactivists`
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 
-Answer:
+Answer: `web forms, sqlmap`
 
 5. Injection attacks exploit which part of the CIA triad?
 
@@ -75,29 +75,29 @@ Answer: `firewall`
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
-Answer:
+Answer: `input sanitation`
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
 
-Answer:
+Answer: `input validation`
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
-Answer:
+Answer: `expensive, time consuming, not obvious flaws (applications works, no more work is done on it), not in scope (firewalls will do all the protection we need)`
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
-Answer:
+Answer: `the robots.txt often shows pages that are not meant to be indexed and thus not interacted with, putting a target on them`
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
-Answer:
+Answer: `WHOIS privacy where the contact info is removed from the actual organization`
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
 
-Answer:
+Answer: `I will say false since client side software can be more easily bypassed with proxy tools like web scarab where it is possible to change content *after* it passes through client protection code`
 
 ____
 
