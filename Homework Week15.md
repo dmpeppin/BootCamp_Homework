@@ -39,7 +39,7 @@ Answer: `confidentiality if they are able to retrieve private and sensitive data
 
 6. Which two mitigation methods can be used to thwart injection attacks?
 
-Answer: `output encoding, data input filters1
+Answer: `output encoding, data input filters1`
 
 ____
 
@@ -59,23 +59,23 @@ Use the graphic below to answer the following questions:
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
 
-Answer:
+Answer: `database`
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
 
-Answer:
+Answer: `web application`
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
 
-Answer:
+Answer: `web server`
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
 
-Answer:
+Answer: `client`
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
 
-Answer:
+Answer: `firewall`
 
 ----
 
