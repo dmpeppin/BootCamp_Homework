@@ -8,10 +8,6 @@
 
 #### The URL Cruise Missile
 
-The URL is the gateway to the web, providing the user with unrestricted access to all available online resources. In the wrong hands can be used as a weapon to launch attacks.
-
-Use the graphic below to answer the following questions:
-
 | Protocol         | Host Name                 | Path                   | Parameters               |
 | ---------------- | :-----------------------: | ---------------------- | ------------------------ |
 | **http://**      | **`www.buyitnow.tv`**     | **/add.asp**           | **?item=price#1999**     |
@@ -45,11 +41,6 @@ ____
 
 #### Web Server Infrastructure
 
-Web application infrastructure includes  sub-components and external applications that provide  efficiency, scalability, reliability, robustness, and most critically, security.
-
-- The same advancements made in web applications that provide users these conveniences are the same components that criminal hackers use to exploit them. Prudent security administrators need to be aware of how to harden such systems.
-
-
 Use the graphic below to answer the following questions:
 
 | Stage 1        | Stage 2             | Stage 3                 | Stage 4              | Stage 5          |
@@ -81,8 +72,6 @@ Answer: `firewall`
 
 
 #### Server Side Attacks
-
-In today’s globally connected cyber community, network and OS level attacks are well defended through the proper deployment of technical security controls such as, firewalls, IDS, Data Loss Prevention, EndPoint and security. However, web servers are accessible from anywhere on the web, making them vulnerable to attack.
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
