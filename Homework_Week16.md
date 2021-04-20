@@ -44,7 +44,7 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 - Bonus command to output results into a new text file named zenmapscan.txt: `nmap -sV 192.168.0.10 -o zenmapscan.txt` i prefer nmap
 
-- Zenmap vulnerability script command: 
+- Zenmap vulnerability script command: `nmap -sC 192.168.0.10 -p 139,445`
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability: `I cant seem to find a vulnerability`
