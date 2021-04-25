@@ -2,34 +2,34 @@
 
     - Run the Nmap command that performs a service and version scan against the target.
 
-      > Answer: 
+      > Answer: `nmap <ip> -sV -O -A` I'll use `-A` since i don't fear detection of a scan in this case
  
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
  
    - Run the SearchSploit commands to show available Icecast exploits.
   
-     > Answer: 
+     > Answer: `searchsploit icecast`
 
 3. Now that we know which exploits are available to us, let's start Metasploit:
  
    - Run the command that starts Metasploit:
     
-     > Answer: 
+     > Answer: `msfconsole`
  
  
 4. Search for the Icecast module and load it for use.
  
    - Run the command to search for the Icecast module:
      
-     > Answer:
+     > Answer: `search icecast`
  
 
    - Run the command to use the Icecast module:
 
        **Note:** Instead of copying the entire path to the module, you can use the number in front of it.
 
-     > Answer: 
+     > Answer: `use exploit/windows/http/icecast_header` why use numbers instead of tab autocomplete?
  
  
 5. Set the `RHOST` to the target machine.
