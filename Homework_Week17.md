@@ -58,11 +58,9 @@
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: 
+      > Answer: my goodness i can not manuver in cmd, so `shell` doesn't work for me without checking my command references. Ugh. With meterperter `cd /Users/IEUser/Documents``edit Drinks.recipe.txt` 
  
-
-8. You can also use Meterpreter's local exploit suggester to find possible exploits.
-
+ek
  
    - **Note:** The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
 
