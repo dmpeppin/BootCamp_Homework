@@ -58,7 +58,8 @@
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: my goodness i can not manuver in cmd, so `shell` doesn't work for me without checking my command references. Ugh. With meterperter `cd /Users/IEUser/Documents``edit Drinks.recipe.txt` 
+      > Answer: my goodness i can not manuver in cmd, so `shell` doesn't work for me without checking my command references. Ugh. With meterperter `cd /Users/IEUser/Documents` 
+      > `edit Drinks.recipe.txt` 
  
 ek
  
