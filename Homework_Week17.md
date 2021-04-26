@@ -58,10 +58,9 @@
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: my goodness i can not manuver in cmd, so `shell` doesn't work for me without checking my command references. Ugh. With meterperter `cd /Users/IEUser/Documents` 
+      > Answer: `cd /Users/IEUser/Documents` 
       > `edit Drinks.recipe.txt` 
  
-ek
  
    - **Note:** The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
 
@@ -71,13 +70,14 @@ ek
  
 A. Run a Meterpreter post script that enumerates all logged on users.
 
-  > Answer:
+  > Answer: `run post/windows/gather/enum_logged_on_users`
  
      
 B. Open a Meterpreter shell and gather system information for the target.
  
-  > Answer: 
+  > Answer: `shell` 
+  > `systeminfo`
  
 C. Run the command that displays the target's computer system information:
 
-   > Answer: 
+   > Answer: `sysinfo`
