@@ -2,11 +2,18 @@
 
 ### Step 1: The Need for Speed 
 
-Report Table `source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval ratio = 'UPLOAD_MEGABITS' / 'DOWNLOAD_MEGABITS' | table date_mday date_hour IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio`
+Report Table 
+
+`source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval ratio = 'UPLOAD_MEGABITS' / 'DOWNLOAD_MEGABITS' | table date_mday date_hour IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio`
 
 
-1) Based on the report created, what is the approximate date and time of the attack? ![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic1.PNG) `looks like download speed was suppressed on the 23rd, around 2PM potentially through 6PM`
-2) How long did it take your systems to recover? ![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic2.PNG) `looks like download speed was back to typical at 8PM`
+![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic1.PNG)
+
+`looks like download speed was suppressed on the 23rd, around 2PM potentially through 6PM`
+
+![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic2.PNG)
+
+`looks like download speed was back to typical at 8PM`
  
 ### Step 2: Are We Vulnerable? 
 
