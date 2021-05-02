@@ -16,7 +16,7 @@ Download speed suppression is used to indicate active attack (image 1). Survey o
 
 `source="18-SIEMs_Homework_resources_nessus_logs.csv" severity=critical dest_ip=10.11.36.23 | top severity dest_ip`
 
-![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic3.PNG)
+![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic4.PNG)
 
 
 ### Step 3: Drawing the (base)line
