@@ -8,7 +8,7 @@ Report Table `source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval r
 
 
 1) Based on the report created, what is the approximate date and time of the attack? ![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic1.PNG) `looks like download speed was suppressed on the 23rd, around 2PM potentially through 6PM`
-2) How long did it take your systems to recover?
+2) How long did it take your systems to recover? ![report](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic2.PNG) `looks like download speed was back to typical at 8PM`
 3) Submit a screen shot of your report and the answer to the questions above.
  
 ### Step 2: Are We Vulnerable? 
