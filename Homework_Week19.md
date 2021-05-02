@@ -51,6 +51,6 @@ Closer inspection shows that there was a number of GET methods originating in th
 
 ![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
 
-Closer inspection of the useragent shows atypical useragents.   
+Closer inspection of the useragent shows atypical useragents (top image is useragents during attack, bottom image is useragents during baseline)
 
 
