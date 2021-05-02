@@ -18,6 +18,12 @@ Download speed suppression is used to indicate active attack (image 1). Survey o
 
 ![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic4.PNG)
 
+![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic5.PNG)
+
+![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic6.PNG)
+
+Several (49) critical vulnerabilities were found. The search will run daily to report if any (>0) vulnerabilities exist.
+
 
 ### Step 3: Drawing the (base)line
 
