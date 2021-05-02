@@ -29,8 +29,18 @@ This sort of Brute Force DoS attack exploits user account lock out timeouts. We 
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic4.PNG)
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic3.PNG)
+
+If we compare the baseline (top image) to the attack (bottom image) we see an emergance of considerable traffic from Ukraine.
+
+
+
 ![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
 
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
 
   
 #### Question 2
