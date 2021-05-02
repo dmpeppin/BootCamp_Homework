@@ -35,11 +35,6 @@ This sort of Brute Force DoS attack exploits user account lock out timeouts. We 
 
 If we compare the baseline (top image) to the attack (bottom image) we see an emergance of considerable traffic from Ukraine.
 
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
-
-
-
-
 #### Question 2
 
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
@@ -47,6 +42,8 @@ If we compare the baseline (top image) to the attack (bottom image) we see an em
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
   
 Closer inspection shows that there was a number of GET methods originating in the US around 6PM and a number of POST methods originating in the Ukraine around 8PM. Further inspection shows that there are 2 files being access in an excessing amount. Likely the logon.php page is the target of the POST methods and the monolithic.jar logstash log is the target of the GET method. 
 
