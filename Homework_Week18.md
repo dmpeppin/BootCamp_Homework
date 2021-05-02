@@ -2,18 +2,15 @@
 
 ### Step 1: The Need for Speed 
 
-Report Table 
-
 `source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval ratio = 'UPLOAD_MEGABITS' / 'DOWNLOAD_MEGABITS' | table date_mday date_hour IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio`
 
 
 ![sorted download speed](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic1.PNG)
 
-Download speed suppression is used to indicate active attack. Survey of download speed shows suppressed download speed on the Feb 23. The attack was probably underway by 2pm, persisting through 6pm, and potentially ceased around 8PM
-
 ![attack investigation](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic2.PNG)
 
-`looks like download speed was back to typical at 8PM`
+Download speed suppression is used to indicate active attack (image 1). Survey of download speed shows suppressed download speed on the Feb 23. The attack was probably underway by 2pm, persisting through 6pm, and potentially ceased around 8PM (image 2).
+
  
 ### Step 2: Are We Vulnerable? 
 
