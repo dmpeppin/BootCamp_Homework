@@ -35,14 +35,11 @@ This sort of Brute Force DoS attack exploits user account lock out timeouts. We 
 
 If we compare the baseline (top image) to the attack (bottom image) we see an emergance of considerable traffic from Ukraine.
 
-
-
 ![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
 
 
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
 
-  
+
 #### Question 2
 
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
@@ -51,13 +48,12 @@ If we compare the baseline (top image) to the attack (bottom image) we see an em
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
   
+Closer inspection shows that there was a number of GET methods originating in the US around 6PM and a number of POST methods originating in the Ukraine around 8PM. Further inspection shows that there are 2 files being access in an excessing amount. Likely the logon.php page is the target of the POST methods and the monolithic.jar logstash log is the target of the GET method. 
 
+- Is the GET method hitting the logstash server from an authorized but misconfigured elasticsearch system? Check the IP if this is one of our own machines
 
-### Guidelines for your Submission:
-  
-In a word document, provide the following:
-- Answers for all questions.
-- Screenshots where indicated
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
 
-Submit your findings in BootCampSpot!
+Closer inspection of the useragent shows atypical useragents.   
+
 
