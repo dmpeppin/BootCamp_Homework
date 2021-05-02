@@ -14,16 +14,9 @@ Download speed suppression is used to indicate active attack (image 1). Survey o
  
 ### Step 2: Are We Vulnerable? 
 
-1. Upload the following file from the Nessus vulnerability scan.
-   - [Nessus Scan Results](resources/nessus_logs.csv)
+`source="18-SIEMs_Homework_resources_nessus_logs.csv" severity=critical dest_ip=10.11.36.23 | top severity dest_ip`
 
-2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
-   - The database server IP is `10.11.36.23`.
-   - The field that identifies the level of vulnerabilities is `severity`.
-      
-3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
-
-Submit a screenshot of your report and a screenshot of proof that the alert has been created.
+![critical vulnerabilities](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW18Pic3.PNG)
 
 
 ### Step 3: Drawing the (base)line
