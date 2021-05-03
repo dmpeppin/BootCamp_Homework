@@ -39,6 +39,16 @@ Closer inspection shows that there was a number of GET methods originating in th
 
 Closer inspection of the useragent shows atypical useragents (top image is useragents during attack, bottom image is useragents during baseline)
 
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic6.PNG)
+
+Finally, it looks like there are a couple IP's prime for blocking, since all of the suspicous traffic comes from just 2 IPs
+
+- US GET 209.91.156.11 lostash/monolithic.jar
+- Ukraine 79.171.127.34 VSI_Account_login.php
+
+These IPs are probably prime to ban.
+
+
 #### Question 1
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
 - Provide a "plain english" description of the rule.
