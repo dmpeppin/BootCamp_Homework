@@ -58,3 +58,4 @@ I think the hint is to block traffic, particularly to this login page, from Ukra
 An IP ban will not be successful against a distrubted login attack. I can think of a couple of mitigations: 
 1) invoke a 5second delay during the authentication sequence. While a minor invoncenience to an authentic user, it dramatically reduces the effectiveness of a brute force attack.
 2) A temporary (or maybe permenant) IP ban to consume all of the IP space these attacks can come from. If they are zombie computers, a temporary ban is probably requisite if the owner of these IP ranges which to connect properly. If they are IP space owned by our competitor might as well permenant ban so they can not be used for any malicousl activity whatsoever in the future.
+3) Lastly, since these malicous activity are using useragents not typical to our proper users, we can potentially block activity from these useragents.
