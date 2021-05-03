@@ -23,17 +23,29 @@ This sort of Brute Force DoS attack exploits user account lock out timeouts. We 
 
 ### Part 2: Apache Webserver Attack:
 
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic4.PNG)
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic3.PNG)
+
+If we compare the baseline (top image) to the attack (bottom image) we see an emergance of considerable traffic from Ukraine.
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
+  
+Closer inspection shows that there was a number of GET methods originating in the US around 6PM and a number of POST methods originating in the Ukraine around 8PM. Further inspection shows that there are 2 files being access in an excessive amounts. Likely the logon.php page is the target of the POST methods and the monolithic.jar logstash log is the target of the GET method. 
+
+- Is the GET method hitting the logstash server from an authorized but misconfigured elasticsearch system? Check the IP if this is one of our own machines
+
+![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
+
+Closer inspection of the useragent shows atypical useragents (top image is useragents during attack, bottom image is useragents during baseline)
+
 #### Question 1
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
 - Provide a "plain english" description of the rule.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic4.PNG)
-
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic3.PNG)
-
-If we compare the baseline (top image) to the attack (bottom image) we see an emergance of considerable traffic from Ukraine.
+I think the hint is to block traffic, particularly to this login page, from Ukraine IP ranges.
 
 #### Question 2
 
@@ -43,14 +55,6 @@ If we compare the baseline (top image) to the attack (bottom image) we see an em
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
 
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic2.PNG)
-  
-Closer inspection shows that there was a number of GET methods originating in the US around 6PM and a number of POST methods originating in the Ukraine around 8PM. Further inspection shows that there are 2 files being access in an excessing amount. Likely the logon.php page is the target of the POST methods and the monolithic.jar logstash log is the target of the GET method. 
-
-- Is the GET method hitting the logstash server from an authorized but misconfigured elasticsearch system? Check the IP if this is one of our own machines
-
-![image](https://github.com/dmpeppin/BootCamp_Homework/blob/main/HW19Pic5.PNG)
-
-Closer inspection of the useragent shows atypical useragents (top image is useragents during attack, bottom image is useragents during baseline)
-
-
+An IP ban will not be successful against a distrubted login attack. I can think of a couple of mitigations: 
+1) invoke a 5second delay during the authentication sequence. While a minor invoncenience to an authentic user, it dramatically reduces the effectiveness of a brute force attack.
+2) A temporary (or maybe permenant) IP ban to consume all of the IP space these attacks can come from. If they are zombie computers, a temporary ban is probably requisite if the owner of these IP ranges which to connect properly. If they are IP space owned by our competitor might as well permenant ban so they can not be used for any malicousl activity whatsoever in the future.
